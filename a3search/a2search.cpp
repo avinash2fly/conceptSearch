@@ -12,6 +12,8 @@
 #include <unordered_map>
 #include <unordered_set>
 #include <dirent.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 
 using namespace std;
 
@@ -23,6 +25,7 @@ string sourceDir,destDir;
 charAlphabetMap indexMap;
 stringmap finalIndexMap;
 const string HASHFILE = "indexHash.txt";
+mode_t mt;
 
 inline char separator()
 {
@@ -109,7 +112,7 @@ vector<string> split(string str, char delimiter) {
 
 void  writeMapinFile(charAlphabetMap map,string dir,string ogFile){
     //ofstream out(filename);
-    mkdir(dir.c_str());
+    mkdir(dir.c_str(),mt);
     stringmap indexWordMap;
     //indexWordMap.clear();
     for(auto const &ent1 : map){
