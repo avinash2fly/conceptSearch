@@ -1,0 +1,108 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/a2search.cpp
+ios
+-
+string
+-
+vector
+-
+sstream
+-
+fstream
+-
+english_stem.h
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/english_stem.h
+unordered_map
+-
+unordered_set
+-
+dirent.h
+-
+
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/english_stem.h
+stemming.h
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/stemming.h
+
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/indexing/common_lang_constants.h
+cwctype
+-
+
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/indexing/string_util.h
+cstdio
+-
+cstdlib
+-
+memory
+-
+cwctype
+-
+cctype
+-
+cstring
+-
+cwchar
+-
+cstddef
+-
+string
+-
+functional
+-
+cassert
+-
+clocale
+-
+stdexcept
+-
+common_lang_constants.h
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/indexing/common_lang_constants.h
+../utilities/safe_math.h
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/utilities/safe_math.h
+../utilities/utilities.h
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/utilities/utilities.h
+../utilities/debug_logic.h
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/utilities/debug_logic.h
+
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/main.cpp
+
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/stemming.h
+algorithm
+-
+indexing/string_util.h
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/indexing/string_util.h
+indexing/common_lang_constants.h
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/indexing/common_lang_constants.h
+
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/utilities/debug_logic.h
+iostream
+-
+fstream
+-
+iterator
+-
+
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/utilities/safe_math.h
+cmath
+-
+cassert
+-
+functional
+-
+
+E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/utilities/utilities.h
+algorithm
+-
+functional
+-
+cmath
+-
+cassert
+-
+

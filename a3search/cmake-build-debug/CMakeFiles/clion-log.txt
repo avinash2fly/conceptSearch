@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2017.1.1\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\UNSW\semester 2\COMP9319\jetbrains_C\a3search"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/UNSW/semester 2/COMP9319/jetbrains_C/a3search/cmake-build-debug

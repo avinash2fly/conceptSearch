@@ -1,0 +1,13 @@
+s
+sale=1
+d
+declin=1
+i
+iPhon=1
+investor=1
+A
+Appl=1
+b
+brace=1
+f
+first=1
